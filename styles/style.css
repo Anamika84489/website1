@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@400;500;600;700;800;900&family=Quicksand:wght@400;700&family=Raleway:ital,wght@1,200;1,300;1,400&family=Ysabeau:ital,wght@0,200;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: burlywood;
+  font-family: "Ysabeau", sans-serif;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.header {
+  background-color: #1f2937;
+  height: 22rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 1.5rem;
+}
+
+.navbar-brand {
+  color: #f9faf8;
+  font-size: 24px;
+  margin: 1rem;
+  padding: 1rem;
+}
+.navlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 15rem;
+  gap: 7rem;
+}
+
+.hero_content_container {
+  margin: 2rem;
+}
+.hero_content_title {
+  font-size: 2rem;
+  color: #e5e7eb;
+}
+
+.hero_content_iptiondescr {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.hero img-container {
+  display: flex;
+}
+.hero_image {
+  border-box: box-sizing;
+  height: 10rem;
+  width: 25rem;
+}
+
+.section {
+  background-color: white;
+  height: 18rem;
+}
+
+.rodom-information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  font-weight: 200;
+}
+.box-information {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box {
+  width: 7rem;
+  height: 7rem;
+  border: 2px solid blue;
+  border-radius: 1rem;
+}
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.website-discription {
+  background-color: rgb(161, 156, 156);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 17rem;
+}
+.describe {
+  width: 45rem;
+  height: 7rem;
+}
+.contactus {
+  background-color: #ffff;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con-information {
+  background-color: blue;
+  box-sizing: border-box;
+  height: 5rem;
+  width: 40rem;
+}
+.footer {
+  background-color: #1f2937;
+  color: white;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
